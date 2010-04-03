@@ -13,4 +13,9 @@ public class Dollar {
     public Dollar times(int multiplier) {
         return new Dollar(amount * multiplier);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return amount == ((Dollar) obj).amount;
+    }
 }
