@@ -38,5 +38,16 @@ public class MoneyTest {
         assertEquals("CHF",Money.franc(5).currency());
     }
 
+    @Test
+    public void shouldPerformSimpleAddition() {
+        Bank bank=new Bank();
+        Money five = Money.dollar(5);
+        Expression sum = five.plus(five);
+        Money reduced = bank.reduce(sum,"USD");
+        assertEquals(Money.dollar(10), reduced);
+    }
+
+
+    
 
 }
