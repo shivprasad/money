@@ -3,19 +3,14 @@ package com.tdd;
 /**
  * User: shiv
  */
-public class Dollar {
-    private int amount;
+public class Dollar extends Money {
 
     public Dollar(int i) {
-        amount = i;
+        super(i);
     }
 
     public Dollar times(int multiplier) {
         return new Dollar(amount * multiplier);
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        return amount == ((Dollar) obj).amount;
-    }
 }
