@@ -3,11 +3,7 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="10fec9b8-98c5-4535-9e0a-ce27443a496f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/tdd/MoneyTest.java" afterPath="$PROJECT_DIR$/test/com/tdd/MoneyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tdd/Money.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tdd/Franc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tdd/Dollar.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/tdd/Dollar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/tdd/Franc.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tdd/Money.java" afterPath="$PROJECT_DIR$/src/com/tdd/Money.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -68,10 +64,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MoneyTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MoneyTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/tdd/MoneyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="49" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
+            <state line="34" column="19" selection-start="957" selection-end="957" vertical-scroll-proportion="0.8963283">
               <folding />
             </state>
           </provider>
@@ -86,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Money.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Money.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tdd/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="12" selection-start="275" selection-end="275" vertical-scroll-proportion="0.62203026">
+            <state line="17" column="51" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,8 +115,8 @@
       <list>
         <option value="$PROJECT_DIR$/test/com/tdd/Dollar.java" />
         <option value="$PROJECT_DIR$/test/com/tdd/Franc.java" />
-        <option value="$PROJECT_DIR$/src/com/tdd/Money.java" />
         <option value="$PROJECT_DIR$/test/com/tdd/MoneyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/tdd/Money.java" />
       </list>
     </option>
   </component>
@@ -469,7 +465,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 CHF * 2 = 10 CHF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Common equals" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -485,6 +481,7 @@
     <MESSAGE value="equals()" />
     <MESSAGE value="Make &quot;amount&quot; private" />
     <MESSAGE value="5 CHF * 2 = 10 CHF" />
+    <MESSAGE value="Common equals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -497,13 +494,6 @@
     <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/src.jar!/src/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="19" selection-start="6105" selection-end="6105" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/tdd/MoneyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="49" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -522,9 +512,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.7.jar!/junit/framework/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="542" selection-end="542" vertical-scroll-proportion="0.3325893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tdd/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="275" selection-end="275" vertical-scroll-proportion="0.62203026">
+        <state line="17" column="51" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/tdd/MoneyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="19" selection-start="957" selection-end="957" vertical-scroll-proportion="0.8963283">
           <folding />
         </state>
       </provider>
