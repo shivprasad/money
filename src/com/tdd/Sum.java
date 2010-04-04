@@ -18,7 +18,7 @@ public class Sum implements Expression{
     }
 
     public Expression times(int multiplier) {
-        return null;
+        return new Sum(augend.times(multiplier),addend.times(multiplier));
     }
 
     public Expression plus(Expression added) {
