@@ -2,9 +2,7 @@ package com.tdd;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 
 public class MoneyTest {
@@ -47,7 +45,22 @@ public class MoneyTest {
         assertEquals(Money.dollar(10), reduced);
     }
 
+    @Test
+    public void plusShouldReturnSum() {
+        Money five = Money.dollar(5);
+        Expression expression = five.plus(five);
+        Sum sum= (Sum) expression;
+        assertEquals(five, sum.augend);
+        assertEquals(five, sum.addend);
+    }
 
-    
+    @Test
+    public void shouldReduceSum() {
+        Sum sum = new Sum(Money.dollar(5), Money.dollar(3));
+        Bank bank = new Bank();
+        Money money = bank.reduce(sum, "USD");
+        assertEquals(Money.dollar(8), money);
+    }
+
 
 }
