@@ -18,10 +18,10 @@ public class Sum implements Expression{
     }
 
     public Expression times(int multiplier) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return null;
     }
 
     public Expression plus(Expression added) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return new Sum(this,added);
     }
 }
