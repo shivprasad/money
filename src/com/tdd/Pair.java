@@ -19,9 +19,8 @@ public class Pair {
         Pair pair = (Pair) o;
 
         if (from != null ? !from.equals(pair.from) : pair.from != null) return false;
-        if (to != null ? !to.equals(pair.to) : pair.to != null) return false;
+        return !(to != null ? !to.equals(pair.to) : pair.to != null);
 
-        return true;
     }
 
     @Override
