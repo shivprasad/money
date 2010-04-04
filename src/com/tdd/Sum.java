@@ -12,7 +12,7 @@ public class Sum implements Expression{
         this.addend = addend;
     }
 
-    public Money reduce(String to) {
+    public Money reduce(Bank bank, String to) {
         int amount = this.addend.amount + this.augend.amount;
         return new Money(amount, to);
     }
